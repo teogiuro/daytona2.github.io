@@ -1,0 +1,22 @@
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(WithMyWoes.ttf);
+}
+
+
+.flex-container {
+  display: flex;
+
+  /*this centers the text horizontally*/
+  justify-content: center;
+
+  /*this centers the text vertically*/
+  align-items: center;
+
+  font-family: myFirstFont;
+  height: 600px;
+  color: green;
+  font-size: 20px;
+  background: black;
+}
